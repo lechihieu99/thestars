@@ -16,6 +16,43 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+textarea {
+  resize: none;
+}
+
+.divText {
+  word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
+}
+
+.Dropdown-control {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.Dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.275) !important;
+}
+
+.Dropdown-option {
+  color: #bdbdbd !important;
+}
+
+.Dropdown-option:hover {
+  color: #eeeeee !important;
+  background-color: rgba(255, 255, 255, 0.262) !important;
+}
+.Dropdown-option.is-selected {
+  background-color: transparent !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,3 +62,107 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.background {
+  background-image: url(./asset/image/background4.png);
+  background-size: cover;
+}
+
+.other {
+  background-image: url(../app/asset/image/other4.mobile.png);
+  background-size: cover;
+}
+
+.section2 {
+  background: linear-gradient(360deg, rgba(3,3,19,1) 0%, rgba(15,13,92,1) 31%, rgba(23,47,125,1) 100%);
+}
+
+#stars > i {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #fff, 
+              0 0 15px #fff, 
+              0 0 25px #fff;
+  animation: animate linear infinite; 
+}
+
+.section2 p, span{
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.section3 {
+  background: linear-gradient(180deg, rgba(3,3,19,1) 0%, rgba(65, 18, 69,1) 69%, rgba(114, 40, 120,1) 100%);
+}
+
+.content {
+  background: linear-gradient(360deg, rgba(36,34,138,0) 0%, rgba(7,19,57,0.633578431372549) 56%, rgba(0,0,0,1) 100%);}
+
+#stars2 > i {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #fff, 
+              0 0 15px #fff, 
+              0 0 25px #fff;
+  animation: animate linear infinite; 
+}
+
+.section3 .element1 {
+  background-image: url(./asset/image/section3.element1.png);
+  background-size: cover;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(10px);
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+background-color: rgba(128, 128, 128, 0.738) !important;
+}
+
+.section4 {
+  background: radial-gradient(circle, rgba(36,34,138,1) 0%, rgba(10,26,77,1) 50%, rgba(8,8,62,1) 100%);
+}
+
+.Typewriter__wrapper {
+  text-shadow: 2px 2px black !important;
+}
+
+#stars3 > i {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #fff, 
+              0 0 15px #fff, 
+              0 0 25px #fff;
+  animation: animate linear infinite; 
+}
+@keyframes animate {
+  0% {
+      opacity: 0;
+  }
+  25% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 1;
+  }
+  95% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .other {
+    background-image: url(../app/asset/image/other4.png);
+    background-size: cover;
+  }
+}
+
