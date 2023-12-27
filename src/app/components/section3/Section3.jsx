@@ -17,7 +17,7 @@ import Card from "../card/Card";
 import axios from "axios";
 
 const axiosApi = axios.create({
-    baseURL: 'https://8d5b-2402-800-be0e-9d2e-3808-2421-c70b-6fb1.ngrok-free.app/api',
+    baseURL: 'https://aa2a-2401-d800-fb8f-2036-7c60-7220-5234-3dcf.ngrok-free.app/api',
     headers: {
         'Content-type': 'application/json',
         "ngrok-skip-browser-warning": "69420",
